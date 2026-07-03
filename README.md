@@ -44,9 +44,8 @@ El desarrollo de esta plataforma nos permitió consolidar habilidades técnicas 
 Este proyecto fue planificado, desarrollado y auditado de manera conjunta por el siguiente equipo de desarrollo:
 
 | Desarrollador | 
-| :--- | :--- |
-| [Daniel M](https://github.com/Daniel-Mon-Fig) | 
-| [Evelin](https://github.com/Evegr12) | 
-| [Milett](https://github.com/MilettLopez) | 
-| [Dani T](https://github.com/tobdany) |
-| [David](https://github.com/tu-usuario-de-github) |
+
+* **Daniel M** — [@Daniel-Mon-Fig](https://github.com/Daniel-Mon-Fig)
+* **Evelin** — [@Evegr12](https://github.com/Evegr12) 
+* **Milett** — [@MilettLopez](https://github.com/MilettLopez) 
+* **Dani T** — [@tobdany](https://github.com/tobdany) 
