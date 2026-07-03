@@ -2,4 +2,48 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+body{
+  background-color: black;
+}
+
+h1, h2 {
+  color: #34547A;
+} 
+
+h3{
+  color: #9AC1F0;
+}
+
+.box{
+  border: 4px solid #9AC1F0;
+}
+
+h1, h2, h3{
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  border: 1px solid #9AC1F0;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.texto{
+  margin: 20px;
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.imagen{
+  margin: 20px;
+  width: 300px;
+  object-fit: cover;
+}
