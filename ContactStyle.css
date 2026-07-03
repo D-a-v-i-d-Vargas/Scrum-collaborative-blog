@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+h1 {
+	font-family: "Metal Mania", system-ui;
+	color: #c22e38; /* El color rojo de tu paleta */
+	font-size: 100px; /* Puedes ajustar el tamaño a tu gusto */
+	text-align: center; /* Opcional: por si quieres centrar el título */
+}
+h2 {
+	color: #52121b;
+}
+
+p,
+label {
+	color: white;
+}
+
+footer {
+	background-color: #52121b;
+	bottom: 0px;
+}
+
+.imagen-fija {
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	width: 400px;
+	height: auto;
+	z-index: 1000;
+}
+
+.angus {
+	position: fixed;
+	bottom: 0px;
+	right: 80px;
+	width: 400px;
+	height: auto;
+	z-index: 1000;
+}
+
+.container {
+	display: grid;
+	/*grid-template-columns: 200px 200px 200px;*/
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 45% 55%;
+	gap: 10px;
+	height: 600px;
+}
+
+.container > div {
+	background-color: #ff5252;
+	/*border: 2px solid #0dcaf0;*/
+	border-radius: 5px;
+	padding: 15px;
+	font-family: sans-serif;
+	color: #333;
+}
+
+.container div img {
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+	display: block;
+}
+
+/* From Uiverse.io by Gautammsharma */
+.comic-button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #52121b;
+	border: 2px solid #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 0px #000;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.comic-button:hover {
+	background-color: #fff;
+	color: #ff5252;
+	border: 2px solid #ff5252;
+	box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+	background-color: #fcf414;
+	box-shadow: none;
+	transform: translateY(4px);
+}
