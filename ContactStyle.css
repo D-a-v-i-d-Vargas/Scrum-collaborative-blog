@@ -12,9 +12,9 @@ body {
 }
 h1 {
 	font-family: "Metal Mania", system-ui;
-	color: #c22e38; /* El color rojo de tu paleta */
-	font-size: 100px; /* Puedes ajustar el tamaño a tu gusto */
-	text-align: center; /* Opcional: por si quieres centrar el título */
+	color: #c22e38;
+	font-size: 100px;
+	text-align: center;
 }
 h2 {
 	color: #52121b;
