@@ -43,8 +43,6 @@ El desarrollo de esta plataforma nos permitió consolidar habilidades técnicas 
 ## 👥 Equipo de Ingeniería y Colaboradores
 Este proyecto fue planificado, desarrollado y auditado de manera conjunta por el siguiente equipo de desarrollo:
 
-| Desarrollador | 
-
 * **Daniel M** — [@Daniel-Mon-Fig](https://github.com/Daniel-Mon-Fig)
 * **Evelin** — [@Evegr12](https://github.com/Evegr12) 
 * **Milett** — [@MilettLopez](https://github.com/MilettLopez) 
