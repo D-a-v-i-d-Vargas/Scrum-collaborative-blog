@@ -3,11 +3,7 @@ html {
     width: 100%;
   }
 
-body{
-  background-color: black;
-}
-
-.titulo {
+.portada {
   font-size: 55px;
   color: #34547A;
   text-align: center;
@@ -61,4 +57,114 @@ h3 {
   margin: 20px;
   width: 350px;
   object-fit: cover;
+}
+
+body {
+  /* Fondo oscuro con degradado para estilo rockstar elegante */
+  background: linear-gradient(135deg, #050505, #1a0b0f, #0b1624);
+
+  /* Color del texto general */
+  color: #f5f5f5;
+
+  /* Quita el margen por defecto del navegador */
+  margin: 0;
+
+  /* Tipo de letra */
+  font-family: Arial, sans-serif;
+}
+  
+/* NAVBAR / MENÚ PRINCIPAL */
+nav {
+  /* Fondo oscuro semi-transparente tipo cristal */
+  background: rgba(5, 5, 5, 0.85);
+
+  /* Efecto borroso detrás del nav */
+  backdrop-filter: blur(10px);
+
+  /* Espacio interno: 18px arriba/abajo y 35px izquierda/derecha */
+  padding: 18px 35px;
+
+  /* Centra los links del menú */
+  text-align: center;
+
+  /* Menú visible al hacer scroll */
+  position: sticky;
+
+  /* El menú se queda fijo en la parte de arriba */
+  top: 0;
+
+  /* Evita que otros elementos se pongan encima del nav */
+  z-index: 1000;
+
+  /* Borde de abajo del menú degradado */
+  border-bottom: 3px solid transparent;
+
+  /* Degradado usando colores de la paleta */
+  border-image: linear-gradient(90deg, #9AC1F0, #C22E38, #52121B) 1;
+
+  /* Sombra roja/vino para efecto escenario */
+  box-shadow: 0 4px 18px rgba(194, 46, 56, 0.35);
+}
+
+/* LINKS DEL NAVBAR */
+nav a {
+  /* Color claro para que contraste con el fondo oscuro */
+  color: #f5f5f5;
+
+  /* Quita el subrayado de los links */
+  text-decoration: none;
+
+  /* Espacio entre cada link */
+  margin: 0 10px;
+
+  /* Tamaño de letra */
+  font-size: 17px;
+
+  /* Texto en negritas */
+  font-weight: bold;
+
+  /* Espacio interno para que los links parezcan botones */
+  padding: 9px 16px;
+
+  /* Redondea las esquinas de los links */
+  border-radius: 25px;
+
+  /* Hace suave el cambio al pasar el mouse */
+  transition: all 0.3s ease;
+}
+
+/* EFECTO HOVER */
+nav a:hover {
+  /* Rojo rockstar al pasar el mouse */
+  background-color: #C22E38;
+
+  /* Texto claro para contraste */
+  color: #ffffff;
+
+  /* Brillo alrededor del botón */
+  box-shadow: 0 0 12px rgba(194, 46, 56, 0.8);
+
+  /* Sube un poquito el botón sin afectar todo el nav */
+  transform: translateY(-2px);
+}
+
+/* LOGO / NOMBRE DEL BLOG */
+.logo {
+  /* Azul claro para que parezca luz de escenario */
+  color: #9AC1F0;
+
+  /* Tamaño más grande que los links */
+  font-size: 24px;
+
+  /* Texto en negritas */
+  font-weight: bold;
+
+  /* Espacio entre el logo y los links */
+  margin-right: 40px;
+
+  /* Espaciado entre letras */
+  letter-spacing: 1px;
+
+  /* Brillo tipo neón */
+  text-shadow: 0 0 8px rgba(154, 193, 240, 0.8);
 }
