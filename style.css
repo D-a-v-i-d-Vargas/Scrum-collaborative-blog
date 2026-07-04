@@ -1,7 +1,6 @@
 html {
     height: 100%;
     width: 100%;
-  }
 
 body {
   /* Fondo oscuro con degradado para estilo rockstar elegante */
@@ -111,6 +110,7 @@ nav a:hover {
 
   /* Brillo tipo neón */
   text-shadow: 0 0 8px rgba(154, 193, 240, 0.8);
+
 }
 
 .pie-pagina {
@@ -164,3 +164,5 @@ nav a:hover {
   color: #777777; 
   font-size: 12px;
 }
+
+
