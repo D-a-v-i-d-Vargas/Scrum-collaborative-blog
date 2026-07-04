@@ -1,6 +1,63 @@
 html {
     height: 100%;
     width: 100%;
+  }
+
+.portada {
+  font-size: 55px;
+  color: #34547A;
+  text-align: center;
+} 
+
+.imagen-portada{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200;
+}
+
+h2 {
+  font-size: 50px;
+  color: #34547A;
+  text-align: center;
+} 
+
+h3 {
+  display: flex;
+  font-size: 40px;
+  color: #9AC1F0;
+  justify-content: center;
+}
+
+.box{
+  border: 4px solid #9AC1F0;
+}
+
+.name{
+  border: 1px solid #9AC1F0;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.texto{
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.imagen{
+  margin: 20px;
+  width: 350px;
+  object-fit: cover;
+}
 
 body {
   /* Fondo oscuro con degradado para estilo rockstar elegante */
